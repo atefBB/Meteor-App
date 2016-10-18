@@ -18,7 +18,7 @@ Template.body.events({
     // Get value from form element
     const target = event.target;
     const text = target.text.value;
- 
+ 	
     // Insert a task into the collection
     Tasks.insert({
       text,
